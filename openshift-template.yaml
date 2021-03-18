@@ -84,6 +84,9 @@ objects:
       template.alpha.openshift.io/wait-for-ready: "true"
     name: ${NAME}
   spec:
+    selector:
+      app: ${NAME}
+      deploymentconfig: ${NAME}
     strategy:
       type: Rolling
     triggers:
@@ -100,7 +103,8 @@ objects:
     template:
       metadata:
         labels:
-          app: hsci-datascience-notebook
+          app: ${NAME}
+          deploymentconfig: ${NAME}
       spec:
         volumes:
           - name: ${NAME}-work
