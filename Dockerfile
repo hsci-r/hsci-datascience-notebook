@@ -18,10 +18,14 @@ CMD ["/usr/local/bin/entrypoint.sh"]
 
 COPY environment.yml /tmp/
 
+ENV NB_GID=0
+
 RUN mkdir /home/jovyan/.ssh && ssh-keyscan github.com > /home/jovyan/.ssh/known_hosts && \
     conda env update -n base --file /tmp/environment.yml && \
     rm /tmp/environment.yml && \
     jupyter lab build && \
     fix-permissions /home/jovyan /opt/conda
+
+ENV NB_GID=100
 
 USER 65536
