@@ -1,0 +1,43 @@
+name: hsci-base
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - r-irkernel
+  - r-tidyverse
+  - r-reticulate
+  - r-fuzzyjoin
+  - bioconductor-iranges
+  - r-zoo
+  - r-plotly
+  - r-lubridate
+  - r-jsonlite
+  - r-data.table
+  - r-sqldf
+  - r-ggridges
+  - r-ggthemes
+  - r-pscl
+  - r-dbplyr
+  - r-dbi
+  - r-tidytext
+  - r-sf
+  - r-googlesheets4
+  - seaborn
+  - pandas
+  - jupyterlab
+  - nodejs
+  - tzlocal
+  - simplegeneric
+  - requests
+  - jupytext
+  - lxml  
+  - tqdm
+  - numpy
+  - scipy
+  - regex
+  - python-levenshtein
+  - luigi
+  - plumbum
+  - beautifulsoup4
+  - pip
+

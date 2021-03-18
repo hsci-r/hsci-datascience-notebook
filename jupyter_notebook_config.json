@@ -1,0 +1,8 @@
+{
+  "NotebookApp": {
+    "nbserver_extensions": {
+      "jupytext": true
+    },
+    "password": "PASSWORD_HASH"
+  }
+}
