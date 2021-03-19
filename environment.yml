@@ -40,4 +40,5 @@ dependencies:
   - plumbum
   - beautifulsoup4
   - pip
+  - gensim
 
