@@ -137,7 +137,7 @@ objects:
                 timeoutSeconds: 15
               resources:
                 requests:
-                  cpu: 100m
+                  cpu: 200m
                   memory: 6Mi
               env:
                 - name: PASSWORD_HASH
