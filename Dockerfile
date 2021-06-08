@@ -1,4 +1,4 @@
-FROM hsci/datascience-notebook-openshift
+FROM quay.io/hsci/datascience-notebook-openshift
 
 USER root
 
