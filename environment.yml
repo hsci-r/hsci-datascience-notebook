@@ -5,6 +5,10 @@ channels:
 dependencies:
   - r-irkernel
   - r-tidyverse
+  - r-vroom
+  - r-here
+  - r-glue
+  - r-assertthat
   - r-reticulate
   - r-fuzzyjoin
   - bioconductor-iranges
@@ -16,11 +20,13 @@ dependencies:
   - r-sqldf
   - r-ggridges
   - r-ggthemes
+  - r-ggbeeswarm
   - r-pscl
   - r-dbplyr
   - r-dbi
   - r-tidytext
   - r-sf
+  - r-tmap
   - r-googlesheets4
   - seaborn
   - pandas
