@@ -36,7 +36,6 @@ dependencies:
   - simplegeneric
   - requests
   - jupytext
-  - jupyterlab-variableinspector
   - lxml  
   - tqdm
   - numpy
